@@ -3,7 +3,7 @@ import "./app.css";
 
 import TimeBox from "src/TimeBox";
 
-const END_DATE = new Date("Sep 28, 2021 08:00:00 GMT-3").getTime();
+const END_DATE = new Date("Sep 28, 2021 08:00:00 GMT+2").getTime();
 
 const Box = memo(({ time, children }) => (
   <TimeBox time={time}>{children}</TimeBox>
@@ -39,6 +39,7 @@ const App = () => {
 
   return (
     <div className="app">
+      <Header description={description} />
       <Box time={state.days}>Days</Box>
       <Box time={state.hours}>Hours</Box>
       <Box time={state.minutes}>Minutes</Box>
