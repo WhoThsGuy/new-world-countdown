@@ -1,13 +1,39 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vw);
+  line-height: 1.4;
+  font-family: "IM Fell DW Pica", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #d5d5d5;
+  background: url(./bg.jpg) no-repeat center / cover;
+}
+
+h2 {
+  font-weight: normal;
+  font-family: inherit;
+  font-size: calc(20px + 5vw);
+}
+
+span {
+  color: #9e947e;
 }

@@ -1,0 +1,6 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: calc(10px + 1vw);
+}

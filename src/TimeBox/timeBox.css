@@ -1,0 +1,7 @@
+.timeBox {
+  display: block;
+  width: min-content;
+  min-width: calc(30px + 5vw);
+
+  text-align: center;
+}
