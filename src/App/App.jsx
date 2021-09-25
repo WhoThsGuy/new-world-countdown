@@ -39,7 +39,6 @@ const App = () => {
 
   return (
     <div className="app">
-      <Header description={description} />
       <Box time={state.days}>Days</Box>
       <Box time={state.hours}>Hours</Box>
       <Box time={state.minutes}>Minutes</Box>
